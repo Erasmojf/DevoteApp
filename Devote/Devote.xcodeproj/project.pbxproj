@@ -18,6 +18,7 @@
 		F3CE50DC26AB23F0005FCD10 /* sound-tap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3CE50D926AB23F0005FCD10 /* sound-tap.mp3 */; };
 		F3CE50E726AB5AD4005FCD10 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE50E626AB5AD4005FCD10 /* Constant.swift */; };
 		F3CE50E926AB6D3A005FCD10 /* HideKeyboardExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CE50E826AB6D3A005FCD10 /* HideKeyboardExtension.swift */; };
+		F3EC812526AF25DF0011C01F /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC812426AF25DF0011C01F /* BackgroundImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F3CE50D926AB23F0005FCD10 /* sound-tap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-tap.mp3"; sourceTree = "<group>"; };
 		F3CE50E626AB5AD4005FCD10 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		F3CE50E826AB6D3A005FCD10 /* HideKeyboardExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardExtension.swift; sourceTree = "<group>"; };
+		F3EC812426AF25DF0011C01F /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				F3CE50C426AB22EF005FCD10 /* ContentView.swift */,
+				F3EC812426AF25DF0011C01F /* BackgroundImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CE50CC26AB22F0005FCD10 /* Persistence.swift in Sources */,
+				F3EC812526AF25DF0011C01F /* BackgroundImageView.swift in Sources */,
 				F3CE50C526AB22EF005FCD10 /* ContentView.swift in Sources */,
 				F3CE50E926AB6D3A005FCD10 /* HideKeyboardExtension.swift in Sources */,
 				F3CE50E726AB5AD4005FCD10 /* Constant.swift in Sources */,
