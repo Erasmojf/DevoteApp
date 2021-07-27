@@ -101,18 +101,10 @@ struct ContentView: View {
                             .clipShape(Capsule())
                             .shadow(color: Color(red: 0,green: 0 ,blue: 0, opacity: 0.25), radius: 8, x: 0.0, y: 4.0)
                     )
-                    // MARK: - TASK
+                    // MARK: - TASKS
                     List {
                         ForEach(items) { item in
-                            VStack(alignment: .leading) {
-                                Text(item.task ?? "")
-                                    .font(.headline)
-                                    .fontWeight(.bold)
-                                
-                                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                                    .font(.footnote)
-                                    .foregroundColor(.gray)
-                            }//VStack
+                          ListRowItemView(item: item)
                         }
                         .onDelete(perform: deleteItems)
                     }// : List
