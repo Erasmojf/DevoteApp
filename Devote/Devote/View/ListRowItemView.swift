@@ -15,7 +15,6 @@ struct ListRowItemView: View {
     @ObservedObject var item: Item
     
     // MARK: - BODY
-    
     var body: some View {
         Toggle(isOn: $item.completion) {
             Text(item.task ?? "")

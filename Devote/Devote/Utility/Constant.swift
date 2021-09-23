@@ -30,3 +30,4 @@ var backgroundGradient: LinearGradient {
         endPoint: .bottomTrailing)
 }
 // MARK: - UX
+let feedback = UINotificationFeedbackGenerator()

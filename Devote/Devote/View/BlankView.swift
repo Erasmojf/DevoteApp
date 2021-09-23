@@ -15,7 +15,6 @@ struct BlankView: View {
     var backgroundOpacity: Double
     
     // MARK: - BODY
-    
     var body: some View {
         VStack {
             Spacer()
